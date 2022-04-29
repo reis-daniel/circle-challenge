@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Circle Colors */
+#color-picker {
+  /* First */
+  background-color: #6d0860;
+  background-color: #1e8f53;
+  /* Second */
+  background-color: #d9ab42;
+  background-color: #444271;
+  /* Third */
+  background-color: #ca5f0d;
+  background-color: #00001f;
+  /* Fourth */
+  background-color: #28ccfe;
+  background-color: #05045c;
+}
+
+.main-container {
+  padding-top: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75rem;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+  padding-top: 4rem;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  transform: rotate(45deg);
+  transform-origin: center;
+  border: 0.15rem solid black;
+}
+
+.circle-1 {
+  background-color: lightsalmon;
+}
+
+.circle-half-1.circle-half-top {
+  background-color: #6d0860;
+  height: 100px;
+  width: 200px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+.circle-half-top:hover {
+  box-shadow: 0px -17px 22px -3px rgba(0, 0, 0, 0.42);
+}
+.circle-half-bottom:hover {
+  box-shadow: 0px 17px 22px -3px rgba(0, 0, 0, 0.42);
+}
+
+.circle-half-1.circle-half-bottom {
+  background-color: #1e8f53;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.circle-2 {
+  background-color: lightgreen;
+}
+
+.circle-half-2.circle-half-top {
+  background-color: #d9ab42;
+  height: 100px;
+  width: 200px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+.circle-half-2.circle-half-bottom {
+  background-color: #444271;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.circle-3 {
+  background-color: lightskyblue;
+}
+
+.circle-half-3.circle-half-top {
+  background-color: #ca5f0d;
+  height: 100px;
+  width: 200px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+.circle-half-3.circle-half-bottom {
+  background-color: #00001f;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.circle-4 {
+  background-color: lightseagreen;
+}
+
+.circle-half-4.circle-half-top {
+  background-color: #28ccfe;
+  height: 100px;
+  width: 200px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+.circle-half-4.circle-half-bottom {
+  background-color: #05045c;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
